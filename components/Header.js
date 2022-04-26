@@ -72,10 +72,10 @@ const Header = (props) => {
 					},
 					particles: {
 						color: {
-							value: "#000",
+							value: "#A41623",
 						},
 						links: {
-							color: "#000",
+							color: "#918450",
 							distance: 150,
 							enable: true,
 							opacity: 0.5,
