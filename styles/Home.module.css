@@ -12,6 +12,10 @@
 	align-items: center;
 }
 
+#navBtn {
+	margin-left: 25%;
+}
+
 /* METRICS */
 /* Description */
 .title,
@@ -674,6 +678,8 @@
 		margin-top: 25px;
 		/* align-items: baseline; */
 	}
+
+
 }
 
 /* MOBILE SCREENS */

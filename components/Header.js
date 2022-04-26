@@ -139,14 +139,19 @@ const Header = (props) => {
 						<a href="https://mintysolutions.vercel.app/contact">Contact</a>
 					</li>
 				</ul>
-				{/* <Image
-					src="/images/logo/logo-dark.png"
+				<Image
+					src="/images/logo/logo-black.png"
 					alt=""
-					width={180}
-					height={80}
+					width={140}
+					height={60}
+					// layout="fill"
 					objectFit="cover"
-				/> */}
-				<button className={styles.scheduleACallBtn}>Schedule a Call!</button>
+				/>
+				<button
+					className={styles.scheduleACallBtn}
+					id={styles["navBtn"]}>
+					Schedule a Call!
+				</button>
 			</nav>
 			{/* <div className={styles.heroContentContainer}> */}
 			<div className={styles.heroContent}>
