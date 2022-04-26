@@ -1,0 +1,282 @@
+.servicesSectionOne {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 46px 0;
+}
+
+.servicesSectionOne .content ul {
+	padding-left: 20px;
+}
+
+.servicesSectionOne .content p {
+	font-size: 0.875rem;
+}
+
+.servicesSectionOne .content a {
+	font-size: 0.875rem;
+}
+
+.servicesSectionOne .content ul {
+	font-size: 0.875rem;
+}
+
+.servicesSectionTwo {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: center;
+	padding-top: 15px;
+    padding-bottom: 60px;
+	margin-top: -50px;
+	background: #FAF9F6;
+    margin: 20px auto;
+}
+
+.servicesSectionOne .content {
+	max-width: 488px;
+}
+
+.servicesSectionTwo .content {
+	max-width: 488px;
+}
+
+.servicesSectionTwo .content a {
+	font-size: 0.875rem;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.servicesSectionTwo .content ul {
+	padding-left: 20px;
+}
+
+.servicesSectionThree {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+	margin: 85px;
+}
+
+.aboutServicesSectionThree {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.aboutServicesSectionThree :nth-child(1) {
+	max-width: 210px;
+}
+
+.aboutServicesSectionThree :nth-child(2) {
+	max-width: 233px;
+}
+
+.servicesSectionThree .content {
+	max-width: 488px;
+}
+
+.aboutServicesSectionThreeIcon {
+	font-size: 2rem;
+}
+
+.servicesPageCTAOne {
+	text-align: center;
+    padding-top: 56px;
+    padding-bottom: 76px;
+    background: #FAF9F6;
+}
+
+.servicesPageCTAOne h1 {
+	line-height: 1.2;
+	font-size: 3.5rem;
+}
+
+.servicesPageCTAOne .topTitle {
+	font-size: 1.125rem;
+}
+
+.servicesPageCTAOne :nth-child(3) {
+	font-size: 1.125rem;
+}
+
+.servicesPageCTAOne div {
+	font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+    margin-right: 5px;
+}
+
+.servicesPageCTAOne div > a {
+	padding-left: 5px;
+    padding-right: 5px;
+	text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 1rem;
+}
+
+.teamPhoto {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.servicesPageCTATwo {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.servicesPageCTATwo div {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesPageCTATwo a {
+	font-size: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+	padding: 10px;
+}
+
+@media screen and (max-width:1024px) {
+	.servicesSectionTwo {
+		margin-top: 22px;
+		padding-bottom: 88px;
+	}
+
+	.servicesSectionThree {
+		margin-top: 70px;
+	}
+
+	.servicesPageCTATwo {
+		margin-bottom: 70px;
+	}	
+}
+
+@media screen and (max-width:768px) {
+	.servicesSectionThree {
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+
+	.servicesPageCTAOne {
+		/* padding-bottom: 0; */
+	}
+
+	.servicesPageCTAOne h1 {
+		font-size: 2.5rem;
+	}
+
+	.servicesPageCTAOne .topTitle {
+		font-size: 1rem;
+	}
+
+	.servicesPageCTAOne :nth-child(3) {
+		font-size: 1rem;
+	}
+
+	.servicesPageCTAOne div > a {
+		font-size: 0.875rem;
+	}
+
+	.servicesPageCTATwo a {
+		font-size: 0.875rem;
+	}
+}
+ 
+@media  screen and (max-width: 425px) {
+	.servicesSectionOne {
+		padding: 20px;
+	}
+
+	.servicesSectionOne .content {
+		padding: 0 40px;
+		/* text-align: center; */
+	}
+
+	.servicesSectionTwo {
+		margin-top: 30px;
+		margin-bottom: 60px;
+		padding: 20px;
+	}
+
+	.servicesSectionTwo .content {
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+	}
+
+	.servicesSectionThree {
+		margin: 50px;
+	}
+
+	.aboutServicesSectionThree {
+		flex-direction: column;
+		align-items: center;
+		padding: 0 3px;
+	}
+
+	.servicesSectionThree .content {
+		/* padding: 0 40px; */
+	}
+
+	.servicesSectionTwo p {
+		font-size: 0.875rem;
+	}
+
+	.servicesSectionTwoParagraph {
+		font-size: 0.875rem;
+	}
+
+	.servicesSectionThree p {
+		font-size: 0.875rem;
+	}
+	
+	.servicesSectionThree a {
+		font-size: 0.875rem;
+	}
+
+	.servicesPageCTAOne .topTitle {
+		font-size: 0.875rem;
+	}
+
+	.servicesPageCTAOne p {
+		font-size: 0.875rem;
+	}
+
+	.servicesPageCTAOne h1 {
+		font-size: 1.7rem;
+	}
+
+	.servicesPageCTATwo h1 {
+		font-size: 1.7rem;
+	}
+
+	.servicesPageCTATwo {
+		margin-bottom: 40px;
+	}
+
+	.aboutServicesSectionThree :nth-child(1) {
+		max-width: 340px;
+	}
+	
+	.aboutServicesSectionThree :nth-child(2) {
+		max-width: 340px;
+		margin-top: 16px;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.servicesSectionOne {
+		padding: 10px;
+	}
+
+	.servicesSectionTwo {
+		padding: 10px;
+	}
+}

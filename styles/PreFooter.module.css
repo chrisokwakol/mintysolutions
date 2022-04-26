@@ -1,0 +1,41 @@
+/* PRE FOOTER */
+.preFooter {
+	background: #EEF6FE;
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.preFooter .content {
+	max-width: 540px;
+	margin: auto;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.preFooterCTA {
+	font-size: 1rem;
+}
+
+.preFooterIcon {
+	font-size: 53.59px;
+} 
+
+@media screen and(max-width:768px) {
+	.preFooterCTA {
+		font-size: 0.875rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.preFooter {
+		padding: 32px 40px;
+	}
+
+	.preFooter .content a {
+		font-size: 0.875rem;
+		text-decoration: underline;
+		text-underline-offset: 2px;
+	}
+}

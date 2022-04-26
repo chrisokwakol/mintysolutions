@@ -1,0 +1,270 @@
+.navLinks .active {
+	color: red;
+	text-decoration: none;
+}
+
+.navLinks a:hover,
+.navLinks a:focus,
+.navLinks a:active {
+	text-decoration: underline;
+}
+
+.title {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 4rem;
+}
+
+.code {
+	background: #fafafa;
+	border-radius: 5px;
+	padding: 0.75rem;
+	font-size: 1.1rem;
+	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+		Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+/* SCHEDULE A CALL BUTTON LIGHT THEME */
+.scheduleACallBtn {
+	height: 36px;
+	width: 173px;
+	background-color: #015bd7;
+	color: #ffffff;
+	outline: inherit;
+	border: none;
+	font-weight: 500;
+	font-size: 1rem;
+	font-family: "Poppins", sans-serif !important;
+	cursor: pointer;
+}
+
+.scheduleACallBtn:hover {
+	background: transparent;
+	border: 1px solid #3b4b5b;
+	color: #015bd7;
+}
+
+/* LEARN MORE BUTTON LIGHT THEME */
+.learnMoreBtn {
+	height: 36px;
+	width: 173px;
+	margin-right: 16px;
+	background-color: transparent;
+	color: #000;
+	font-size: 1rem;
+	font-weight: 500;
+	/* outline: #000000; */
+	/* border: none; */
+	border: 1px solid #000;
+	font-family: "Poppins", sans-serif !important;
+	cursor: pointer;
+}
+
+.learnMoreBtn:hover {
+	background: #015bd7;
+	color: #ffffff;
+}
+
+/* HEADER */
+.header {
+	background-color: #eef6fe;
+	/* background: transparent; */
+	/* position: relative; */
+	height: 100vh;
+	width: 100%;
+	/* position: relative; */
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+	z-index: 1;
+	margin-top: 10px;
+}
+
+#navBtn {
+	margin-left: 25%;
+}
+
+.navLinks {
+	display: flex;
+	padding: 0;
+	color: var(--secondary-color);
+	margin: 0 7%;
+}
+
+.navLinks li {
+	list-style: none;
+	margin: 16px;
+	font-weight: 500;
+}
+
+.headerBtns {
+	display: flex;
+	padding: 40px;
+	justify-content: center;
+}
+
+.heroContent {
+	/* display: flex; */
+	/* flex-direction: column; */
+	margin: auto;
+	max-width: 730px;
+	text-align: center;
+	/* margin-top: 30px; */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	/* z-index: 1; */
+}
+
+.heroContent p {
+	max-width: 540px;
+	margin: auto;
+	color: #333;
+	line-height: 2;
+}
+
+.heroContent h1 {
+	font-size: 3.5rem;
+	line-height: 60px;
+	/* margin: 24px; */
+	max-width: 730px;
+	/* color: #000; */
+}
+
+@media screen and (max-width: 1024px) {
+	.heroContent h1 {
+		margin-bottom: 20px;
+		font-size: 2.3rem;
+		width: 511px;
+		line-height: 1.2;
+	}
+
+	.navLinks {
+		font-size: 0.875rem;
+		margin: 0 7%;
+	}
+
+	.navLinks li {
+		list-style: none;
+		margin: 10px;
+		font-weight: 500;
+	}
+
+	#navBtn {
+		margin-left: 15%;
+	}
+
+	.heroContent {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#navBtn {
+		display: none;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding-top: 8px;
+	}
+
+	.navLinks {
+		position: absolute;
+		left: 0;
+		top: 14vh;
+		height: 86vh;
+		background-color: #4c4c4c;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 40%;
+		transform: translateX(-300%);
+		transition: transform 0.3s ease-in;
+		z-index: 3;
+		margin: 0;
+	}
+
+	/* .navLinks li {
+		opacity: 0;
+	} */
+
+	@keyframes navLinksFade {
+		from {
+			opacity: 0;
+			transform: translateX(50px);
+		}
+		to {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+
+	.navActive {
+		transform: translateX(0);
+	}
+
+	.headerBtns {
+		padding: 30px;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+	.heroContent {
+		max-width: 370px;
+	}
+
+	.heroContent h1 {
+		font-size: 2.2rem;
+		line-height: 1;
+		max-width: 365px;
+	}
+
+	.heroContent p {
+		font-size: 0.875rem;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		max-width: 300px;
+	}
+
+	.scheduleACallBtn {
+		height: 30px;
+		width: 140px;
+		font-size: 0.875rem;
+	}
+
+	.learnMoreBtn {
+		height: 30px;
+		width: 140px;
+		font-size: 0.875rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.heroContent h1 {
+		padding: 0 20px;
+	}
+}
+
+/* TS PARTICLES */
+#tsparticles {
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	z-index: 0;
+}
