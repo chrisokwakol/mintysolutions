@@ -36,7 +36,7 @@ function contact() {
 			<main className={styles.main}>
 				{/* HEADER */}
 				<Header title="Contact Us" />
-				<InlineWidget url="https://calendly.com/chrisokwakol" />
+				<InlineWidget url="https://calendly.com/mintysolutions/15min" />
 				{/* PRE FOOTER */}
 				<PreFooter />
 			</main>
